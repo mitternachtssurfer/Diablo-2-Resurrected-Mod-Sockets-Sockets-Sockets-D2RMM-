@@ -1,0 +1,236 @@
+{
+  "name": "Sockets Sockets Sockets",
+  "description": "Amulets, belts, boots, (small, large and grand) charms, gloves and rings can have sockets. Common (white) versions of these items can have runewords.",
+  "author": "mitternachtssurfer",
+  "website": "https://github.com/mitternachtssurfer/Diablo-2-Resurrected-Mod-Sockets-Sockets-Sockets-D2RMM",
+  "version": "1.0",
+  "config": [
+    {
+      "id": "amuletsSocket",
+      "type": "checkbox",
+      "name": "Amulets Socket",
+      "description": "Enable/disable socket for amulets.",
+      "defaultValue": true
+    },
+    {
+      "id": "amuletsSocketType",
+      "type": "select",
+      "name": "Amulets Socket Type",
+      "description": "Choose which gem and rune attribute applies to amulets.",
+      "defaultValue": "helms",
+      "options": [
+        { "value": "weapons", "label": "Weapons" },
+        { "value": "armors", "label": "Armors" },
+        { "value": "helms", "label": "Helms" },
+        { "value": "shields", "label": "Shields" }
+      ]
+    },
+    {
+      "id": "beltsSockets",
+      "type": "checkbox",
+      "name": "Belts Sockets",
+      "description": "Enable/disable sockets for belts.",
+      "defaultValue": true
+    },
+    {
+      "id": "beltsSocketsType",
+      "type": "select",
+      "name": "Belts Sockets Type",
+      "description": "Choose which gem and rune attribute applies to belts.",
+      "defaultValue": "shields",
+      "options": [
+        { "value": "weapons", "label": "Weapons" },
+        { "value": "armors", "label": "Armors" },
+        { "value": "helms", "label": "Helms" },
+        { "value": "shields", "label": "Shields" }
+      ]
+    },
+    {
+      "id": "beltsRunewordsType",
+      "type": "select",
+      "name": "Belts Runewords Type",
+      "description": "Choose which runewords applies to belts.",
+      "defaultValue": "any",
+      "options": [
+        { "value": "any", "label": "Any" },
+        { "value": "type", "label": "Sockets Type" },
+        { "value": "none", "label": "None" }
+      ]
+    },
+    {
+      "id": "bootsSockets",
+      "type": "checkbox",
+      "name": "Boots Sockets",
+      "description": "Enable/disable sockets for boots.",
+      "defaultValue": true
+    },
+    {
+      "id": "bootsSocketsType",
+      "type": "select",
+      "name": "Boots Sockets Type",
+      "description": "Choose which gem and rune attribute applies to boots.",
+      "defaultValue": "armors",
+      "options": [
+        { "value": "weapons", "label": "Weapons" },
+        { "value": "armors", "label": "Armors" },
+        { "value": "helms", "label": "Helms" },
+        { "value": "shields", "label": "Shields" }
+      ]
+    },
+    {
+      "id": "bootsRunewordsType",
+      "type": "select",
+      "name": "Boots Runewords Type",
+      "description": "Choose which runewords applies to boots.",
+      "defaultValue": "type",
+      "options": [
+        { "value": "any", "label": "Any" },
+        { "value": "type", "label": "Sockets Type" },
+        { "value": "none", "label": "None" }
+      ]
+    },
+    {
+      "id": "smallCharmsSocket",
+      "type": "checkbox",
+      "name": "Small Charms Socket",
+      "description": "Enable/disable socket for small charms.",
+      "defaultValue": true
+    },
+    {
+      "id": "smallCharmsSocketType",
+      "type": "select",
+      "name": "Small Charms Socket Type",
+      "description": "Choose which gem and rune attribute applies to small Charms.",
+      "defaultValue": "shields",
+      "options": [
+        { "value": "weapons", "label": "Weapons" },
+        { "value": "armors", "label": "Armors" },
+        { "value": "helms", "label": "Helms" },
+        { "value": "shields", "label": "Shields" }
+      ]
+    },
+    {
+      "id": "largeCharmsSockets",
+      "type": "checkbox",
+      "name": "Large Charms Sockets",
+      "description": "Enable/disable sockets for large charms.",
+      "defaultValue": true
+    },
+    {
+      "id": "largeCharmsSocketsType",
+      "type": "select",
+      "name": "Large Charms Sockets Type",
+      "description": "Choose which gem and rune attribute applies to large charms.",
+      "defaultValue": "armors",
+      "options": [
+        { "value": "weapons", "label": "Weapons" },
+        { "value": "armors", "label": "Armors" },
+        { "value": "helms", "label": "Helms" },
+        { "value": "shields", "label": "Shields" }
+      ]
+    },
+    {
+      "id": "largeCharmsRunewordsType",
+      "type": "select",
+      "name": "Large Charms Runewords Type",
+      "description": "Choose which runewords applies to large charms.",
+      "defaultValue": "any",
+      "options": [
+        { "value": "any", "label": "Any" },
+        { "value": "type", "label": "Sockets Type" },
+        { "value": "none", "label": "None" }
+      ]
+    },
+    {
+      "id": "grandCharmsSockets",
+      "type": "checkbox",
+      "name": "Grand Charms Sockets",
+      "description": "Enable/disable sockets for grand charms.",
+      "defaultValue": true
+    },
+    {
+      "id": "grandCharmsSocketsType",
+      "type": "select",
+      "name": "Grand Charms Sockets Type",
+      "description": "Choose which gem and rune attribute applies to grand charms.",
+      "defaultValue": "weapons",
+      "options": [
+        { "value": "weapons", "label": "Weapons" },
+        { "value": "armors", "label": "Armors" },
+        { "value": "helms", "label": "Helms" },
+        { "value": "shields", "label": "Shields" }
+      ]
+    },
+    {
+      "id": "grandCharmsRunewordsType",
+      "type": "select",
+      "name": "Grand Charms Runewords Type",
+      "description": "Choose which runewords applies to grand charms.",
+      "defaultValue": "any",
+      "options": [
+        { "value": "any", "label": "Any" },
+        { "value": "type", "label": "Sockets Type" },
+        { "value": "none", "label": "None" }
+      ]
+    },
+    {
+      "id": "glovesSockets",
+      "type": "checkbox",
+      "name": "Gloves Sockets",
+      "description": "Enable/disable sockets for gloves.",
+      "defaultValue": true
+    },
+    {
+      "id": "glovesSocketsType",
+      "type": "select",
+      "name": "Gloves Sockets Type",
+      "description": "Choose which gem and rune attribute applies to gloves.",
+      "defaultValue": "weapons",
+      "options": [
+        { "value": "weapons", "label": "Weapons" },
+        { "value": "armors", "label": "Armors" },
+        { "value": "helms", "label": "Helms" },
+        { "value": "shields", "label": "Shields" }
+      ]
+    },
+    {
+      "id": "glovesRunewordsType",
+      "type": "select",
+      "name": "Gloves Runewords Type",
+      "description": "Choose which runewords applies to gloves.",
+      "defaultValue": "type",
+      "options": [
+        { "value": "any", "label": "Any" },
+        { "value": "type", "label": "Sockets Type" },
+        { "value": "none", "label": "None" }
+      ]
+    },
+    {
+      "id": "ringsSocket",
+      "type": "checkbox",
+      "name": "Rings Socket",
+      "description": "Enable/disable socket for rings.",
+      "defaultValue": true
+    },
+    {
+      "id": "ringsSocketType",
+      "type": "select",
+      "name": "Rings Socket Type",
+      "description": "Choose which gem and rune attribute applies to rings.",
+      "defaultValue": "weapons",
+      "options": [
+        { "value": "weapons", "label": "Weapons" },
+        { "value": "armors", "label": "Armors" },
+        { "value": "helms", "label": "Helms" },
+        { "value": "shields", "label": "Shields" }
+      ]
+    },
+    {
+      "id": "addRecipes",
+      "type": "checkbox",
+      "name": "Cube Recipes Add Sockets",
+      "description": "Enable/disable new cube recipes to add sockets.",
+      "defaultValue": true
+    }
+  ]
+}

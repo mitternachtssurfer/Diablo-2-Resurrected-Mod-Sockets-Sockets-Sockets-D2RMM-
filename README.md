@@ -1,1 +1,1 @@
-# Diablo-2-Resurrected-Mod-Sockets-Sockets-Sockets-D2RMM-
+# Diablo-2-Resurrected-Mods

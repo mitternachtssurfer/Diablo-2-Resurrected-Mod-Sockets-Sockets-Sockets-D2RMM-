@@ -1,0 +1,25 @@
+{
+  "name": "Runes Runes Runes",
+  "description": "Modify the droprate for runes. The Countess can drop any runes.",
+  "author": "mitternachtssurfer",
+  "website": "https://github.com/mitternachtssurfer/Diablo-2-Resurrected-Mod-Runes-Runes-Runes-D2RMM",
+  "version": "1.0",
+  "config": [
+    {
+      "id": "runeScaling",
+      "type": "number",
+      "name": "Runes Droprate Multiplier (in %)",
+      "description": "Droprate modifier for runes - in percent. (game default: 100, mod default: 300, min: 1, max: 10,000)",
+      "defaultValue": 300,
+      "minValue": 1,
+      "maxValue": 10000
+    },
+    {
+      "id": "countessAnyRune",
+      "type": "checkbox",
+      "name": "Countess Drops Any Rune",
+      "description": "Enable/disable the Countess can drop any rune.",
+      "defaultValue": true
+    }
+  ]
+}

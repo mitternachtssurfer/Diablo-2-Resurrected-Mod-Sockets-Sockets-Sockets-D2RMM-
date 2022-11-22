@@ -1,0 +1,86 @@
+{
+  "name": "Gamble Class-specific Items",
+  "description": "Allow to gamble class-specific items.",
+  "author": "mitternachtssurfer",
+  "website": "https://github.com/mitternachtssurfer/Diablo-2-Resurrected-Mod-Gamble-Class-specific-Items-D2RMM",
+  "version": "1.0",
+  "config": [
+    {
+      "id": "amazonBows",
+      "type": "checkbox",
+      "name": "Amazon Bows",
+      "description": "Enable/disable gamble amazon bows.",
+      "defaultValue": true
+    },
+    {
+      "id": "amazonJavalins",
+      "type": "checkbox",
+      "name": "Amazon Javalins",
+      "description": "Enable/disable gamble amazon javalins.",
+      "defaultValue": true
+    },
+    {
+      "id": "amazonSpears",
+      "type": "checkbox",
+      "name": "Amazon Spears",
+      "description": "Enable/disable gamble amazon spears.",
+      "defaultValue": true
+    },
+    {
+      "id": "babarianHelms",
+      "type": "checkbox",
+      "name": "Babarian Helms",
+      "description": "Enable/disable gamble babarian helms.",
+      "defaultValue": true
+    },
+    {
+      "id": "druidPelts",
+      "type": "checkbox",
+      "name": "Druid Pelts",
+      "description": "Enable/disable gamble druid pelts.",
+      "defaultValue": true
+    },
+    {
+      "id": "necromancerShrunkenHeads",
+      "type": "checkbox",
+      "name": "Necromancer Shrunken Heads",
+      "description": "Enable/disable gamble necromancer shrunken heads.",
+      "defaultValue": true
+    },
+    {
+      "id": "paladinShields",
+      "type": "checkbox",
+      "name": "Paladin Shields",
+      "description": "Enable/disable gamble paladin shields.",
+      "defaultValue": true
+    },
+    {
+      "id": "scepters",
+      "type": "checkbox",
+      "name": "Scepters",
+      "description": "Enable/disable gamble scepters.",
+      "defaultValue": true
+    },
+    {
+      "id": "sorceressOrbs",
+      "type": "checkbox",
+      "name": "Sorceress Orbs",
+      "description": "Enable/disable gamble sorceress orbs.",
+      "defaultValue": true
+    },
+    {
+      "id": "staves",
+      "type": "checkbox",
+      "name": "Staves",
+      "description": "Enable/disable gamble staves.",
+      "defaultValue": true
+    },
+    {
+      "id": "wands",
+      "type": "checkbox",
+      "name": "Wands",
+      "description": "Enable/disable gamble wands.",
+      "defaultValue": true
+    }
+  ]
+}
