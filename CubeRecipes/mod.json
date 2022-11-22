@@ -3,5 +3,14 @@
   "description": "Adds some new horadric cube recipes.",
   "author": "mitternachtssurfer",
   "website": "https://github.com/mitternachtssurfer/Diablo-2-Resurrected-Mod-Horadric-Cube-Recipes-D2RMM",
-  "version": "1.0"
+  "version": "1.0",
+  "config": [
+    {
+      "id": "upgradeQuality",
+      "type": "checkbox",
+      "name": "Upgrade Item Quality",
+      "description": "Enable/disable upgrade magic item from normal to non-magic exceptional, from exceptional to non-magic elite and any rare item to non-rare elite.",
+      "defaultValue": true
+    }
+  ]
 }

@@ -1,1 +1,1 @@
-# Diablo-2-Resurrected-Mods
+# Diablo 2 Resurrected Mods

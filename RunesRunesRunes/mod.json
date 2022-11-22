@@ -15,6 +15,13 @@
       "maxValue": 10000
     },
     {
+      "id": "runeLikelihood",
+      "type": "checkbox",
+      "name": "Evenly Dropping Runes",
+      "description": "All runes drop evenly.",
+      "defaultValue": true
+    },
+    {
       "id": "countessAnyRune",
       "type": "checkbox",
       "name": "Countess Drops Any Rune",

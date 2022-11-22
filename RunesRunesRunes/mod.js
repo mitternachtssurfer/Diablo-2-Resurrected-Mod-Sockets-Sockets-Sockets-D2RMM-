@@ -24,19 +24,47 @@ function setCountessAnyRunes(row) {
   }
 }
 
+function setRuneDropScaling(row) {
+  if (config.runeScaling !== 100) {
+    if (!row['Treasure Class'].includes("Runes ")) {
+      for (let i = 1; i <= 10; i++) {
+        if (row['Item' + i].includes("Runes ")) {
+          row['Prob' + i] = Math.round(row['Prob' + i] * (config.runeScaling / 100));
+        }
+      }
+    }
+  }
+}
+
+function setRuneDropLikelihood(row) {
+  if (config.runeLikelihood) {
+    if (row['Treasure Class'].includes("Runes ")) {
+      var prob = false;
+      for (let i = 1; i <= 10; i++) {
+        if (!row['Item' + i].includes("Runes ") && row['Item' + i] !== "") {
+          row['Prob' + i] = 1;
+          if (prob) {
+            prob = Math.min(prob, row['Item' + i].replace(/\D/g,'') - 1);
+          } else {
+            prob = row['Item' + i].replace(/\D/g,'') - 1;
+          }
+        } else if (row['Item' + i].includes("Runes ")) {
+          if (prob) {
+            row['Prob' + i] = prob;
+          }
+        }
+      }
+    }
+  }
+}
+
 if (config.runeScaling !== 100 || config.countessRunes) {
   let treasureClassexFilePath = 'global\\excel\\treasureclassex.txt';
   let treasureClassexFile = D2RMM.readTsv(treasureClassexFilePath);
 
     treasureClassexFile.rows.forEach((row) => {
-      if (config.runeScaling !== 100) {
-        for (let i = 1; i <= 10; i++) {
-          if (!row['Treasure Class'].includes("Runes ") && (row['Item' + i]).includes("Runes ")) {
-            row['Prob' + i] = Math.round(row['Prob' + i] * (config.runeScaling / 100));
-          }
-        }
-      }
-
+      setRuneDropScaling(row);
+      setRuneDropLikelihood(row);
       setCountessAnyRunes(row);
     });
   
